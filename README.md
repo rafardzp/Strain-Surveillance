@@ -26,6 +26,7 @@ To set up the project using Conda, follow these steps:
 ```bash
 # Clone the repository
 git clone https://github.com/rafardzp/Strain-Surveillance.git
+cd Strain Surveillance
 
 # Create a Conda environment from the .yml file
 conda env create -f environment.yml
