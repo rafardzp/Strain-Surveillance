@@ -28,8 +28,6 @@ class EfficientPIKE():
        
         K = np.zeros((X_mz.shape[0], Y_mz.shape[0]))
 
-        # Precompute distances matrix
-        # distances is an array with shape (spectrum_length_X, spectrum_length_Y) 
         positions_x = X_mz[0,:].reshape(-1, 1)
         positions_y = Y_mz[0,:].reshape(-1, 1)
         distances = pairwise_distances(
@@ -39,9 +37,6 @@ class EfficientPIKE():
             )
         distances = np.exp(-distances / (4 * self.t))
         d = np.where(distances[0] < th)[0][0]
-
-        #transpose to transform X and Y, both of the form (n_samples, spectrum_length), 
-        #into the form (spectrum_length, n_samples)
         
         for i,x in enumerate(X_i.T):
 
