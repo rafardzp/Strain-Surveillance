@@ -17,7 +17,7 @@ The project includes the following key scripts:
 
 1. **E-PIKE (e_pike.py):** Implements the E-PIKE in a redy-to-use Python class.
 2. **Scale Normalization (normalization.py):** An adaptation of the Scale Normalization step introduced by C. Weis et al in the [original PIKE implementation](https://github.com/BorgwardtLab/maldi_PIKE).
-3. **Kernelization Pipeline pipeline.py):** A ready-to-use class implementing all three pipelines considered in our paper, including the SPR implementation.
+3. **Kernelization Pipeline (pipeline.py):** A ready-to-use class implementing all three pipelines considered in our paper, including the SPR implementation.
 
 ## Installation
 
