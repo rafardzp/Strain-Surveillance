@@ -7,6 +7,10 @@ This repository contains a series of Python scripts and Jupyter Notebooks implem
 
 Paper is not yet publicly available.
 
+## Database
+
+Database is not yet publicly available. Stay tuned for more info!
+
 ## Overview
 
 The project includes the following key scripts:
